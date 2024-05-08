@@ -1,0 +1,45 @@
+.root {
+    display: grid;
+    grid-template-columns: 600px 210px 210px;
+    gap: 2rem;
+    padding-bottom: 1.9rem;
+    border-bottom: 1px solid white;
+}
+
+.input {
+    background-color: white;
+    box-shadow: 10px 10px 40px 0px #9cb9de5c;
+    padding: 1.2rem 1rem;
+    border-radius: 10px;
+    color: #2a2a2a;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.search-input {
+    display: block;
+    width: 100%;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    border: none;
+    outline: none;
+}
+
+.search-input::placeholder {
+    color: #bbbbbb;
+}
+
+.select-input {
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    gap: 1rem;
+
+    & > div {
+        width: 100%;
+    }
+}

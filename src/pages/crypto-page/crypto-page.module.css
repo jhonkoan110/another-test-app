@@ -1,0 +1,61 @@
+.root {
+    width: 1920px;
+    background-image: url('../../assets/images/crypto-background.png');
+    background-size: contain;
+    height: 100%;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 360px 1200px 360px;
+}
+
+.header {
+    padding: 2rem;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)),
+        linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%),
+        linear-gradient(180deg, rgba(185, 251, 255, 0.2) 0%, rgba(227, 220, 255, 0.2) 100%);
+    display: flex;
+    align-items: center;
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header__left_state {
+    color: #bbbbbb;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+}
+
+.header__left_active {
+    color: #62bd6b;
+}
+
+.header__right {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #565555;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+}
+
+.main {
+    height: 100%;
+    width: 1100px;
+    margin: 7.6rem auto 0;
+}
+
+.main-glass {
+    padding: 2.4rem 2rem 4.7rem;
+}
+
+.crypto-list {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}

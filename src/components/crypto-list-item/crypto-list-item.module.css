@@ -1,0 +1,38 @@
+.crypto-list-item {
+    padding: 1.2rem 2rem;
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: 18px 50px 212px 270px 115px 150px 100px;
+    color: red;
+    align-items: center;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    box-shadow: 10px 10px 40px 0px #9cb9de1a;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)),
+        linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 10px;
+}
+
+.crypto-list-item__title {
+    font-weight: 600;
+    color: #2a2a2a;
+}
+
+.crypto-list-item__wallet-id {
+    margin-top: 3px;
+    color: #999999;
+}
+
+.crypto-list-item__description {
+    color: #565555;
+}
+
+.crypto-list-item__username {
+    color: #bbbbbb;
+}
+
+.crypto-list-item__tags {
+    display: flex;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+}

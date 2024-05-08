@@ -1,0 +1,19 @@
+.tag {
+    padding: 0.25rem 0.3rem;
+    display: flex;
+    align-items: center;
+    column-gap: 0.4rem;
+    row-gap: 1rem;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+.tag_purple {
+    background-color: #5241bf;
+}
+
+.tag_green {
+    background-color: #41bfb0;
+}

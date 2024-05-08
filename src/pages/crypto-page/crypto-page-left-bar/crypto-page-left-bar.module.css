@@ -1,0 +1,13 @@
+.crypto-page-left-bar {
+    padding: 7.7rem 3.6rem 0;
+}
+
+.crypto-page-left-bar__header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.crypto-page-left-bar__arrow {
+    margin-left: auto;
+}

@@ -1,0 +1,19 @@
+.install-state-button {
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 0.6rem 2rem;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    width: max-content;
+}
+
+.install-state-button_true {
+    background-color: #0085ff;
+}
+
+.install-state-button_false {
+    background-color: #ccd4db;
+}

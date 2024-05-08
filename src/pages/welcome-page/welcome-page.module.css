@@ -1,0 +1,70 @@
+.root {
+    background-image: url('../../assets/images/home-page-background.jpg');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.glass {
+    padding: 4rem;
+    width: 760px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
+}
+
+.dapplets {
+    position: absolute;
+    right: 4rem;
+    top: 4.5rem;
+    line-height: 1.8rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.dapplets__dot {
+    color: #c50140;
+}
+
+.title {
+    text-transform: uppercase;
+    line-height: 4.5rem;
+    font-size: 4.8rem;
+    font-weight: 900;
+}
+
+.glass > p {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+.bottom-actions {
+    display: flex;
+    gap: 2rem;
+}
+
+.button {
+    padding: 1.3rem 2rem;
+    text-transform: uppercase;
+    border-radius: 10px;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.button__desktop {
+    background-color: #c50140;
+}
+
+.button__mobile {
+    border-color: white;
+}
